@@ -29,10 +29,7 @@ All the source code and materials are available on [GitHub](https://github.com/b
 
 ## The Presentation
 
-<!-- {% include embed/youtube.html id='ydd-Sz4iMjM' %} -->
-![](https://64.media.tumblr.com/7e51f3e67feffcd2e60e678661e891b7/017845f35d076913-ca/s250x250_c1/9750c373edba27698f2e0beb545ed71248f7efb8.jpg)
-
-INSERT VIDEO HERE WHEN IT GETS UPLOADED XD
+{% include embed/youtube.html id='JzxkIna0gnY' %}
 
 ## Some Corrections on My Part
 
