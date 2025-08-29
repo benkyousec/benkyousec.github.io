@@ -27,8 +27,6 @@ For this, we can write an extension that does the heavy lifting for us, and all 
 
 All the source code and materials are available on [GitHub](https://github.com/benkyousec/writing-your-first-burp-extension).
 
-
-
 ## The Presentation
 
 <!-- {% include embed/youtube.html id='ydd-Sz4iMjM' %} -->
@@ -61,3 +59,23 @@ if bytes.Equal(decodedPayload, data) {
 
 return false, nil
 ```
+
+![](/assets/img/2025-08-28-writing-your-first-burp-extension/badreq.png)
+_Postman beautified our JSON_
+
+![](/assets/img/2025-08-28-writing-your-first-burp-extension/badreq-newline.png)
+_Newline characters gets inserted that breaks the check after the signatures are matched_
+
+![](/assets/img/2025-08-28-writing-your-first-burp-extension/goodreq.png)
+_Expected minified payload_
+
+![](/assets/img/2025-08-28-writing-your-first-burp-extension/goodreq2.png)
+_Working as expected :D_
+
+Then you can proxy sqlmap requests through Burp to retrieve the flag.
+
+```
+python3 sqlmap.py -r ../test.req -p id --proxy=http://127.0.0.1:8080 --batch --dbms=sqlite --dump -T flag
+```
+
+Flag: `reunion{i_Do_nOt_uNdErStAnD_JaVa}`
