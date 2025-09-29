@@ -21,3 +21,7 @@ I play CTFs with [RE:UN10N](https://reun10n.team/) and you can find my other wri
 - UM Cybersecurity Summit (UMCS) CTF Finals @ USM Biawaks (/w Selina & Adrian)
 - BlackBerry CTF 2025 @ USM Biawaks (/w Selina and Naomi)
 - and other online CTFs...
+
+## Created Challenges
+
+- Mobile hacking challenges for Girls in CTF 2025 [[GitHub](https://github.com/rehackxyz/GirlsInCTF/tree/main/mobile)]
