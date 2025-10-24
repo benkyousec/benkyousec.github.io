@@ -17,6 +17,8 @@ I play CTFs with [RE:UN10N](https://reun10n.team/) and you can find my other wri
 
 ## CTFs
 
+- CYBER SEA Games 2025 (/w hikki, zeqzoq, & w6rstmvn)
+- Siber Siaga Code Combat CTF Finals (/w whymir)
 - CYDES 2025 Badge to Breach: ICS Cyber Siege Finals @ takde kerja (/w jy & capang)
 - UM Cybersecurity Summit (UMCS) CTF Finals @ USM Biawaks (/w Selina & Adrian)
 - BlackBerry CTF 2025 @ USM Biawaks (/w Selina and Naomi)
