@@ -3,7 +3,7 @@ layout: post
 title: "YesWeHack Dojo #45: Chainfection"
 date: 2025-10-29
 tags: web
-description: Write-up for YesWeHack Dojo #45: Chainfection.
+description: Write-up for YesWeHack Dojo 45 - Chainfection.
 image: /assets/img/2025-10-29-yeswehack-dojo-45/preview.png
 ---
 
