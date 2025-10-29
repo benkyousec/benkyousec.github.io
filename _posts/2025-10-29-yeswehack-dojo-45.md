@@ -4,7 +4,7 @@ title: "YesWeHack Dojo #45: Chainfection"
 date: 2025-10-29
 tags: web
 description: Write-up for YesWeHack Dojo #45: Chainfection.
-image: /assets/img/2025-10-05-htb-certificate/logo.png
+image: /assets/img/2025-10-29-yeswehack-dojo-45/preview.png
 ---
 
 This is my first time trying out YesWeHack Dojos, and I've got to say I'm impressed.
