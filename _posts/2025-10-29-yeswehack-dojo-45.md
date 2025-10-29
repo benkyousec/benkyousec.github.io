@@ -218,3 +218,8 @@ This can enable remote code execution by overwriting files on the web server.
 
 It is recommended to update the `sequelize` package to at least version 6.19.1 where the SQL injection vulnerability has been patched and update the `path-sanitizer` package to at least version 3.1.0 where the path traversal bypas has been patched.
 If updating `sequelize` is not feasible, a temporary workaround is to not use replacements and where options in Sequelize queries.
+
+## References
+
+- https://github.com/advisories/GHSA-wrh9-cjv3-2hpw
+- https://github.com/advisories/GHSA-94p5-r7cc-3rpr
