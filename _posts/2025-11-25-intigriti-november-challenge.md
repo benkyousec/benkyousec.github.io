@@ -27,7 +27,11 @@ Use the crafted JWT without signature on the website to gain access as admin.
 
 A SSTI vulnerability exists in the admin's "My Profile Page". The admin can inject SSTI payloads in the "Display Name" field and when the changes are saved, the server renders the unsanitised display name in the "Current Display Name" using a vulnerable Jinja template. This allows us to gain remote code execution (RCE) on the web server and read the flag.
 
-Payload used: `{{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat .aquacommerce/*').read() }}`
+Payload used: 
+
+```{% raw %}
+{{ self.__init__.__globals__.__builtins__.__import__('os').popen('cat .aquacommerce/*').read() }}
+```{% endraw %}
 
 ![](/assets/img/2025-11-25-intigriti-november-challenge/intigriti-flag.png)
 
