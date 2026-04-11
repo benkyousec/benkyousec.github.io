@@ -4,6 +4,7 @@ title:  "HTB: Crafty"
 date:   2024-08-04
 description: In Crafty, I'll exploit the infamous Log4j RCE exploit (CVE-2021-44228) on a Minecraft server to gain a shell as the user. Then, I'll discover a jar file in one of the user's directories, decompile it, and discover a hardcoded password which allows me to gain a shell as the Administrator.
 tags: htb nmap minecraft log4j cve-2021-44228 hardcoded-credentials runascs ncat
+categories: [CTF, HackTheBox]
 ---
 
 ## Overview

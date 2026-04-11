@@ -4,6 +4,7 @@ title:  "THM: Publisher"
 date:   2024-08-11
 description: Publisher is an easy box from TryHackMe which features a vulnerable instance of SPIP that allows us to get unauthenticated RCE. After getting user on the box, we notice that we are being blocked by some sort of ACL. The root step involves bypassing AppArmor, and exploiting an unexpected SUID in which we have control over to get a shell as root.
 tags: thm nmap spip cve-2023-27372 apparmor
+categories: [CTF, TryHackMe]
 ---
 
 ## Overview

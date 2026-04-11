@@ -5,6 +5,7 @@ date: 2025-11-25
 tags: web
 description: Write-up for Intigriti's November 2025 Challenge.
 image: /assets/img/2025-11-25-intigriti-november-challenge/intigriti-preview.png
+categories: [CTF, Online CTF]
 ---
 
 ## PoC

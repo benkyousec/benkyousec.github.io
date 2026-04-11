@@ -5,6 +5,7 @@ date:   2025-04-15 00:00:00 +0000
 tags:  web forensics pwn reversing steganography cryptography
 description: Writeups for challenges that our team, USM Biawaks solved from the UMCS CTF 2025 Preliminary round.
 image: /assets/img/2025-04-13-umcsctf-2025-prelims/logo.jpg
+categories: [CTF, Online CTF]
 ---
 
 ## Preface
@@ -336,12 +337,12 @@ root@61604318ea63:/ctf# checksec babysc
     Stripped:   No
 ```
 
-| Protection | Enabled | Usage |
-| -------- | -------- | -------- |
-| Canary     | ✘    | Prevent stack overflows     |
-| NX     | ?  | Disables code execution on the stack     |
-| PIE     |   ✔ | Randomizes the binary's base address     |
-| RelRO     | Full    | Makes some sections of the binary read-only     |
+| Protection | Enabled | Usage                                       |
+| ---------- | ------- | ------------------------------------------- |
+| Canary     | ✘       | Prevent stack overflows                     |
+| NX         | ?       | Disables code execution on the stack        |
+| PIE        | ✔       | Randomizes the binary's base address        |
+| RelRO      | Full    | Makes some sections of the binary read-only |
 
 The program takes in user input, and executes it as shellcode.
 
@@ -486,12 +487,12 @@ root@a256f1cdbc73:/ctf# checksec chall
 ```
 
 
-| Protection | Enabled | Usage |
-| -------- | -------- | -------- |
-| Canary     | ✘    | Prevent stack overflows     |
-| NX     | ✔  | Disables code execution on the stack     |
-| PIE     |   ✘ | Randomizes the binary's base address     |
-| RelRO     | Partial    | Makes some sections of the binary read-only     |
+| Protection | Enabled | Usage                                       |
+| ---------- | ------- | ------------------------------------------- |
+| Canary     | ✘       | Prevent stack overflows                     |
+| NX         | ✔       | Disables code execution on the stack        |
+| PIE        | ✘       | Randomizes the binary's base address        |
+| RelRO      | Partial | Makes some sections of the binary read-only |
 
 The challenge just takes in user input.
 If we send a very long string, we trigger a segfault, which means that we overflowed the buffer and the instruction pointer was overwritten.

@@ -5,7 +5,7 @@ date:   2024-10-26
 description: 2024 edition of Hack The Boo from HTB to celebrate Cybersecurity Month and Halloween. I solved a few challenges ( ‾́ ◡ ‾́ )
 
 tags: ctf coding forensics web pwn reversing crypto
-
+categories: [CTF, HackTheBox]
 ---
 
 ## Coding

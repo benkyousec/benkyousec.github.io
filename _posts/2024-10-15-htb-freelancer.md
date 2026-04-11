@@ -4,6 +4,7 @@ title:  "HTB: Freelancer"
 date:   2024-10-15
 description: Freelancer is a hard difficulty lab from HackTheBox which features a web application and Windows Active Directory. The web application has broken access control which allowed us to login as the administrator through an IDOR. From there, we gain access to a panel that allows us to execute SQL commands, and gain initial foothold onto the box. The foothold is interesting as it involves MSSQL impersonation and AV evasion. After gaining the foothold, we discover hardcoded credentials in one of the configuration files to get to user. The root step using a crash dump file to extract passwords from SAM. This gives us access as another user that is a member of the AD Recycle Bin Group. This group had GenericWrite privileges over the domain controller, which allowed us to perform a Resource-Based Constrained Delegation (RBCD) attack to get a shell as the Domain Admin.
 tags: htb nmap idor mssql impersonate av-bypass sam-dump lsass windbg memprocfs forensics ad-recycle-bin rbcd
+categories: [CTF, HackTheBox]
 ---
 
 ## Overview

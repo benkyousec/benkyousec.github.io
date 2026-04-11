@@ -4,6 +4,7 @@ title:  "Vulnhub | digitalworld.local: FALL"
 date:   2024-06-13
 description: FALL is an easy box from the digitalworld.local series. It hosts a web application that uses CMS Made Simple, where we discover an LFI vulnerability that allows us to read the SSH private key of the user on the box. Then, we find the user’s credentials in their bash history, which allows us to run sudo. The user had run ALL privileges on the box, so we jump straight to root.
 tags: vulnhub lfi mysql cms-made-simple ssh-keys sudo
+categories: [CTF, VulnHub]
 ---
 
 ## Overview

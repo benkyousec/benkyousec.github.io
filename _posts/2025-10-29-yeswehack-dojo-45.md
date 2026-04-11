@@ -5,6 +5,7 @@ date: 2025-10-29
 tags: web
 description: Write-up for YesWeHack Dojo 45 - Chainfection.
 image: /assets/img/2025-10-29-yeswehack-dojo-45/preview.png
+categories: [CTF, Online CTF]
 ---
 
 This is my first time trying out YesWeHack Dojos, and I've got to say I'm impressed.

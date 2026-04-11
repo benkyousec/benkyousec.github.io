@@ -6,6 +6,7 @@ tags:
   - coding
 description: I shared how you can write your own Burp extension for testing APIs that require request signing.
 image: 
+categories: [Workshops]
 ---
 
 One of the problems that I faced early on in my pentesting journey is needing to test an API that required request signing.

@@ -2,7 +2,8 @@
 layout: post
 title:  "HTB: Cicada"
 date:   2025-02-17
-tags: htb smb-null-sessions password-spraying backup-operators sebackupprivilege sam-dump 
+tags: htb smb-null-sessions password-spraying backup-operators sebackupprivilege sam-dump
+categories: [CTF, HackTheBox]
 description: Cicada is a very easy active directory box that involves common AD enumeration to discover hardcoded credentials, which can be used to pivot to other users with more privileges. Eventually, we'll pivot to a user that is a member of the Backup Operators group, which we can abuse to dump hashes from the domain controller and get a shell as administrator through Pass-the-Hash.
 image: "/assets/img/2025-02-17-htb-cicada/cicada-thumbnail.png"
 ---

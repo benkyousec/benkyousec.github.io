@@ -3,6 +3,7 @@ layout: post
 title: "HTB: Certificate"
 date: 2025-10-05
 tags: htb active-directory winrar chisel mysql adcs ESC3 SeManageVolumePrivilege certutil certipy
+categories: [CTF, HackTheBox]
 description: Certificate is a hard Windows machine that had a very interesting technique for bypassing file uploads using a double loaded ZIP file. This allowed us to write PHP code to the web server and gained our initial foothold. One of the password hashes in the local MySQL database can be cracked, and after logging on to the machine as this user, we discover a pcap file in their Documents directory. We'll extract AS REQ packets from this pcap to crack and pivot to another user that is an Enrollment Agent, allowing us to perform ESC3 to request certificates on behalf of another user. We'll target a user that has SeManageVolumePrivilege permissions, and abuse it to extract the CA's private key to forge a certificate as the administrator to escalate to domain admin.
 image: /assets/img/2025-10-05-htb-certificate/logo.png
 ---

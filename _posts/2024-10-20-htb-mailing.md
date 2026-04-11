@@ -4,6 +4,7 @@ title:  "HTB: Mailing"
 date:   2024-10-20
 description: Mailing is an easy difficulty machine from HackTheBox that features an email server running on hMailServer. There is a path traversal on its web application, where I'll enumerate for the hMailServer configuration file to discover a hash to crack. This gives us valid email credentials to exploit a recent Office exploit, CVE-2024-21413 to capture the user's NTLM hash. For root, there's a scheduled task running LibreOffice which is vulnerable to CVE-2023-2255 which allowed us to add our user to the local administrator group.
 tags: htb nmap email smtp imap hmailserver winrm libreoffice cve-2024-21413 cve-2023-2255
+categories: [CTF, HackTheBox]
 ---
 
 ## Overview

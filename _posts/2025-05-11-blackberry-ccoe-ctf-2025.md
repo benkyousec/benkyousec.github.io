@@ -5,6 +5,7 @@ date:   2025-05-11 00:00:00 +0800
 tags:  web forensics mobile jail osint pwn
 description: Our team USM Biawaks, consisting of me and my 2 juniors (@naomitham and @selinatan) played our first on-site CTF at BlackBerry CCoE Anniversary CTF and we ranked 6th. Here's our writeups for some of the challenges from the event.
 image: /assets/img/2025-05-11-blackbbery-ccoe-ctf-2025/preview.png
+categories: [CTF, Onsite CTF]
 ---
 
 

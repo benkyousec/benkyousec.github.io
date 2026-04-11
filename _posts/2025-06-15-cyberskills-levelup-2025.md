@@ -5,6 +5,7 @@ date:   2025-06-15
 tags:  web presentation
 description: I ran a web security workshop at CSLU'25 @ UTM
 image: "/assets/img/2025-06-15-cyberskills-levelup-2025/logo.png"
+categories: [Workshops]
 ---
 
 Over the weekend, I was given the opportunity to run a web security workshop at UTM as part of the CSLU'25 Southern Edition program.
